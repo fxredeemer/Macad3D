@@ -52,7 +52,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>Shell32.lib;msvcrtd.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(_3DxWareLibPath);$(OcctLibPath);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(_3DxWareLibPath);$(OcctLibPath);%(AdditionalLibraryDirectories)C:\OpenCASCADE-7.5.0-vc14-64\opencascade-7.5.0\win64\vc14\lib</AdditionalLibraryDirectories>
       <CLRUnmanagedCodeCheck>false</CLRUnmanagedCodeCheck>
       <AdditionalOptions>/ignore:4099 /KEYFILE:$(MMRootDir)Source\sn.snk %(AdditionalOptions)</AdditionalOptions>
       <IgnoreSpecificDefaultLibraries>nochkclr.obj</IgnoreSpecificDefaultLibraries>

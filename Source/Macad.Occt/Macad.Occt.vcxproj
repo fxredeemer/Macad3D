@@ -57,7 +57,7 @@
     <Link>
       <AdditionalOptions>/IGNOREIDL /KEYFILE:$(MMRootDir)Source\sn.snk %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>msvcrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(OcctLibPath);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(OcctLibPath);%(AdditionalLibraryDirectories);C:\OpenCASCADE-7.5.0-vc14-64\opencascade-7.5.0\win64\vc14\lib</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>nochkclr.obj;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <AssemblyDebug>true</AssemblyDebug>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>

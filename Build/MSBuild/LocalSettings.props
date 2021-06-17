@@ -1,0 +1,22 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <OcctIncPath>C:\OpenCASCADE-7.5.0-vc14-64\opencascade-7.5.0\inc</OcctIncPath>
+    <FreeTypeBinPath>C:\OpenCASCADE-7.5.0-vc14-64\freetype-2.5.5-vc14-64\bin</FreeTypeBinPath>
+    <TbbBinPath>C:\OpenCASCADE-7.5.0-vc14-64\tbb_2017.0.100\bin\intel64\vc14</TbbBinPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OcctLibPath>C:\OpenCASCADE-7.5.0-vc14-64\opencascade-7.5.0\win64\vc14\libd</OcctLibPath>
+    <OcctBinPath>C:\OpenCASCADE-7.5.0-vc14-64\opencascade-7.5.0\win64\vc14\bind</OcctBinPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OcctLibPath>C:\OpenCASCADE-7.5.0-vc14-64\opencascade-7.5.0\win64\vc14\lib</OcctLibPath>
+    <OcctBinPath>C:\OpenCASCADE-7.5.0-vc14-64\opencascade-7.5.0\win64\vc14\bin</OcctBinPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <OcctDeployFiles Include="C:\OpenCASCADE-7.5.0-vc14-64\freeimage-3.17.0-vc14-64\bin\*.*" />
+    <OcctDeployFiles Include="C:\OpenCASCADE-7.5.0-vc14-64\ffmpeg-3.3.4-64\bin\*.*" />
+    <OcctDeployFiles Include="C:\OpenCASCADE-7.5.0-vc14-64\openvr-1.14.15-64\bin\win64\*.*" />
+  </ItemGroup>
+
+</Project>
